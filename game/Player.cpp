@@ -14077,4 +14077,5 @@ int idPlayer::CanSelectWeapon(const char* weaponName)
 	return weaponNum;
 }
 
+
 // RITUAL END

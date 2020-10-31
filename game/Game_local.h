@@ -632,6 +632,7 @@ public:
 // RAVEN END
 	bool					CheatsOk( bool requirePlayer = true );
 	void					SetSkill( int value );
+	void					SetCharacter(void); //added SetCharacter(void);
 	gameState_t				GameState( void ) const;
 	void					SetGameState( gameState_t newState ) { gamestate = newState; }
 	idEntity *				SpawnEntityType( const idTypeInfo &classdef, const idDict *args = NULL, bool bIsClientReadSnapshot = false );

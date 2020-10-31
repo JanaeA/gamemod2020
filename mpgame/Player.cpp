@@ -2035,7 +2035,7 @@ void idPlayer::Spawn( void ) {
 
 	gibSkin = declManager->FindSkin( spawnArgs.GetString( "skin_gibskin" ) );
 
-	// Skil levels
+	// Skill levels
 	dynamicProtectionScale = 1.0f;
 	if ( !gameLocal.isMultiplayer ) {
 		if ( g_skill.GetInteger() < 2 ) {

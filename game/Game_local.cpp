@@ -5068,6 +5068,23 @@ void idGameLocal::SetSkill( int value ) {
 	g_skill.SetInteger( skill_level );
 }
 
+//added this code
+void idGameLocal::SetCharacter(void){
+	if(g_skill.GetInteger = 0){
+		const idDeclEntityDef	*def = gameLocal.FindEntityDef("player_marine", false);
+	}
+	else if (g_skill.GetInteger = 1){
+		const idDeclEntityDef	*def = gameLocal.FindEntityDef("player_strogg", false);
+	}
+	else if (g_skill.GetInteger = 2){
+		const idDeclEntityDef	*def = gameLocal.FindEntityDef("player_healer", false);
+	}
+	else
+	{
+		const idDeclEntityDef	*def = gameLocal.FindEntityDef("player_something", false);
+	}
+}
+
 /*
 ==============
 idGameLocal::GameState
